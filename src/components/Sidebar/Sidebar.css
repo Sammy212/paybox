@@ -1,0 +1,45 @@
+.Sidebar {
+    margin: 3.5rem 2rem 1rem;
+}
+
+.Sidebar .main-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.Sidebar .dashed-line {
+    border: none;
+    border-top: 1px dashed white;
+    width: 100%;
+    margin: 30px 0;
+    border-spacing: 6px;
+    border-collapse: separate; 
+}
+
+.Sidebar .menu-item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu-item .menu {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.menu-item .menu-dropDown {
+    display: flex;
+    justify-self: end;
+}
+
+
+
+
+
+
+
+
+/* Hover Effects */
+
