@@ -1,0 +1,15 @@
+:root {
+  --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+  --scafoldBg: #121826;
+  --mobileMenuBg: #032282;
+  --btnBG: #ffffff4d;
+  --walletBladeBG: #032282;
+  --BladeBtn: #eaf4ff;
+  --successBG: #18a201;
+  --failBG: #ff0000;
+  --sendBG: #032282;
+  --cashOutBG: #f4be38;
+  --utilBG: #ede1ff;
+  --bladeBoxBG: white;
+  --bladeBG: #f6faff;
+}
