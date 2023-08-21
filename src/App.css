@@ -4,12 +4,21 @@
   --mobileMenuBg: #032282;
   --btnBG: #ffffff4d;
   --walletBladeBG: #032282;
+  --bladeBoxBG: white;
+  --bladeBG: #f6faff;
   --BladeBtn: #eaf4ff;
   --successBG: #18a201;
   --failBG: #ff0000;
   --sendBG: #032282;
   --cashOutBG: #f4be38;
   --utilBG: #ede1ff;
-  --bladeBoxBG: white;
-  --bladeBG: #f6faff;
+}
+
+.App {
+  background: var(--scafoldBg);
+  height: 100vh;
+  display: grid;
+  font-family: 'Nunito', sans-serif;
+  overflow: hidden;
+  grid-template-columns: 16.44rem auto;
 }
