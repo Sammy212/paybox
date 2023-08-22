@@ -45,7 +45,7 @@ const Sidebar = () => {
             <span className="menu">Home</span>
         </div>
 
-        <div className="menu-item Active">
+        <div className="menu-item active">
             <div className="menu-icon">
                 <img src={Analytics} alt="" className="icon" />
             </div>

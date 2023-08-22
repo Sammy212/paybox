@@ -1,10 +1,11 @@
 .Sidebar {
-    margin: 3.5rem 2rem 1rem;
+    margin: 3rem 20px 1rem;
 }
 
 .Sidebar .main-logo {
     display: flex;
     flex-direction: column;
+    margin: 0 6px 20px;
 }
 
 .Sidebar .dashed-line {
@@ -18,28 +19,43 @@
 
 .Sidebar .menu-item {
     display: flex;
-    justify-content: start;
     align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+.menu-icon {
+    margin: 0 8px 0 10px;
 }
 
 .menu-item .menu {
+    flex: 1;
     color: white;
     font-size: 16px;
-    font-weight: 600;
+    /* font-weight: 600; */
     line-height: normal;
 }
 
+.menu-icon .icon {
+    margin-bottom: -4px;
+}
+
 .menu-item .menu-dropDown {
-    display: flex;
-    justify-self: end;
+    transition: transform 0.3s ease;
+}
+
+.active {
+    background: var(--activeMenuBg);
+    border-radius: 9px;
+    margin-left: -12px;
+    padding: 11px 14px 12px;
 }
 
 
-
-
-
-
-
-
 /* Hover Effects */
+
+.menu-item:hover .menu-dropDown {
+    transform: rotate(90deg);
+}
 

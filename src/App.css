@@ -2,6 +2,7 @@
   --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
   --scafoldBg: #121826;
   --mobileMenuBg: #032282;
+  --activeMenuBg: #192749;
   --btnBG: #ffffff4d;
   --walletBladeBG: #032282;
   --bladeBoxBG: white;
@@ -20,5 +21,5 @@
   display: grid;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
-  grid-template-columns: 16.44rem auto;
+  grid-template-columns: 16.6rem auto;
 }
