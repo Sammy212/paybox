@@ -1,0 +1,7 @@
+.Dashboard {
+    background: var(--dashboardBG);
+    margin: 38px 8px 0 0;
+    width: 97.5%;
+    height: 90vh;
+    border-radius: 30px;
+}

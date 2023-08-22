@@ -1,9 +1,14 @@
 import React from "react";
 import "./Dashboard.css";
+import Header from "../Header/Header";
+
+// Assets
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div className="Dashboard">
+      <Header/>
+    </div>
   )
 }
 

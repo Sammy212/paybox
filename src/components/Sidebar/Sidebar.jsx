@@ -25,7 +25,7 @@ const Sidebar = () => {
     <div className="Sidebar">
         
         
-        {/* logo */}
+        {/* Logo */}
         <div className="main-logo">
             <div className="logo">
                 <img src={Logo} alt="" />
