@@ -70,3 +70,11 @@
   font-weight: 600;
   font-family: Sora, 'Nunito';
 }
+
+.title {
+  margin-top: 6px;
+  color: var(--bladeHeaderText);
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}

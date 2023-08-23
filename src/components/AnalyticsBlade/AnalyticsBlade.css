@@ -1,9 +1,9 @@
 .Analytics {
     display: grid;
-    grid-template-columns: 302px 302px 302px 302px;
+    grid-template-columns: repeat(4, 302px);
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .a-wallet {

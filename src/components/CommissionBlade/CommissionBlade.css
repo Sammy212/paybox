@@ -1,0 +1,141 @@
+.CommissionBlade {
+    display: grid;
+    grid-template-columns: repeat(4, 302px);
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.CommissionBlade .c-blade-box {
+    background: white;  /* change color back to white */
+    width: 286px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-blade-box .c-blade {
+    background: var(--bladeBG);
+    width: 260px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.blade {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.blade .dropdown {
+    margin-top: 8px;
+}
+
+.c-end {
+    /* margin-top: -10px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.l-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.r-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-blade-box2 {
+    grid-column: span 2; /* Span across two grid columns */
+}
+
+.c-blade-box2 .c-blade-box {
+    width: 590px;
+    justify-content: left;
+    align-items: start;
+}
+
+.left-side {
+    margin-top: 24px;
+}
+
+.c-title {
+    margin-left: 24px;
+    color: #37474f;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.send {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 24px;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+.dot {
+    margin-top: 4px;
+    background: var(--sendBG);
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+}
+
+.text {
+    color: #37474f;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.mid-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-info img {
+    margin-top: 12px;
+    margin-left: 24px;
+
+}
+
+.mid-info .amount {
+    margin-left: 24px;
+    font-size: 16px;
+    font-family: 'Sora','Nunito', sans-serif;
+    font-weight: 600;
+    color: #263238;
+}
+
+.cash {
+    margin-top: 16px;
+    margin-left: 24px;
+    display: flex;
+    gap: 8px;
+}
+
+.cash .dot {
+    background: var(--cashOutBG);
+}
+
+.left span {
+    margin-bottom: 8px;
+}
+
+.buttom {
+    display: flex;
+}
+
+.right span {
+    margin-bottom: 8px;
+}
+
+.right .cash .dot {
+    background: var(--utilBG);
+}
+

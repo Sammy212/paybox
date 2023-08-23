@@ -1,6 +1,6 @@
 .Total {
     display: grid;
-    grid-template-columns: 302px 302px 302px 302px;
+    grid-template-columns: repeat(4, 302px);
     align-items: center;
     justify-content: center;
     margin-top: 16px;
@@ -27,14 +27,6 @@
     display: flex;
     justify-content: space-between;
     padding: 16px;
-}
-
-.t-header span {
-    margin-top: 6px;
-    color: var(--bladeHeaderText);
-    font-size: 14px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
 }
 
 .t-blade .t-mid {
