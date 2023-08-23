@@ -1,5 +1,5 @@
 // Assets
-import CallToActionIcon from "../../imgs/radar.svg";
+import CallToActionIcon from "../../imgs/double-arrow.svg";
 import DropDownIcon from "../../imgs/Icon-pack.svg";
 
 // Header Row

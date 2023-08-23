@@ -7,7 +7,7 @@
 }
 
 .Header .h-title {
-    margin: 57px 42px 0;
+    margin: 57px 22px 0;
     color: var(--headerText);
     font-size: 24px;
     font-weight: 600;
@@ -16,7 +16,7 @@
 .h-rightSide {
     display: flex;
     margin-top: 46px;
-    margin-right: 50px;
+    margin-right: 30px;
     gap: 16px;
 }
 

@@ -1,0 +1,63 @@
+.Total {
+    display: grid;
+    grid-template-columns: 302px 302px 302px 302px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.t-blade-box {
+    background: white;  /* change color back to white */
+    width: 286px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-blade-box .t-blade {
+    background: var(--bladeBG);
+    width: 260px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.t-blade .t-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.t-header span {
+    margin-top: 6px;
+    color: var(--bladeHeaderText);
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.t-blade .t-mid {
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.t-blade .l-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.t-blade .r-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.t-blade .t-end {
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+

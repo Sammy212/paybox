@@ -15,6 +15,7 @@
   --utilBG: #ede1ff;
   --dashboardBG: #f8f9fb;
   --headerText: #242424;
+  --bladeHeaderText: #4f64a7;
 }
 
 .App {
@@ -38,4 +39,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--BladeBtn);
+  border-radius: 6px;
+  width: 82px;
+  height: 30px;
+  color: var(--walletBladeBG);
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.date-title {
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+  color: var(--bladeHeaderText);
+  font-weight: 400;
+}
+
+.cost-style {
+  color: var(--mobileMenuBg);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Sora, 'Nunito';
 }
