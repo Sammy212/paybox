@@ -1,9 +1,12 @@
 import React from "react";
 import "./AnalyticsBlade.css";
+import WalletBalance from "../WalletBalance/WalletBalance";
 
 const AnalyticsBlade = () => {
   return (
-    <div>AnalyticsBlade</div>
+    <div className="Analytics">
+        <WalletBalance/>
+    </div>
   )
 }
 

@@ -25,3 +25,17 @@
   overflow: hidden;
   grid-template-columns: 16.6rem auto;
 }
+
+.add-cta {
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  color: white;
+  width: 112px;
+  height: 40px;
+  border-radius: 7px;
+  background: var(--btnBG);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
